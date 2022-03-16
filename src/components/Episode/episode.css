@@ -1,12 +1,12 @@
-.episode img {
-    height: 80px;
-  }
   .episode {
+    background-image: linear-gradient(#6d5dfc, #5b0eeb);
+    color:white;
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
     width: 250px;
     box-shadow: 4px 4px 15px lightgray;
+    cursor: pointer;
   }
   .episode:hover {
       transform: scale(1.1);
