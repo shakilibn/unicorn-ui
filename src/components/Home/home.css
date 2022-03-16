@@ -2,6 +2,10 @@ h2 {
     text-align: center;
     color: #5b0eeb;
 }
+.side-bar {
+    background-image: linear-gradient(#6d5dfc, #5b0eeb);
+    min-height: 100vh;
+}
 .home {
     display: flex;
     flex-wrap: wrap;

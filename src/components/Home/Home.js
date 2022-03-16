@@ -13,13 +13,18 @@ const Home = () => {
   console.log(episodes);
 
   return (
-    <div>
+    <div className="row">
+      <div className="col-2 side-bar">
+        <p className="text-white text-center my-4">This is side bar</p>
+      </div>
+      <div className="col-10">
         <h2>Episode List</h2>
         <div className="home">
-            {episodes.map((episode) => (
+          {episodes.map((episode) => (
             <Episode key={episode.id} episode={episode} />
-             ))}
+          ))}
         </div>
+      </div>
     </div>
   );
 };
